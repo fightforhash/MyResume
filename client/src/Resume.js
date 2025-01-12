@@ -2,6 +2,7 @@ import React from "react";
 import "./Resume.css";
 
 const Resume = () => {
+    return (
     <div className = "resume">
         <header className = "header">
             <h1>Thomas Ha</h1>
@@ -57,7 +58,7 @@ const Resume = () => {
             </section>
 
     </div>
-
+    );
 }
 
 export default Resume;
