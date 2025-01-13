@@ -13,10 +13,8 @@ body {
     width: 800px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
+    color: #333;
   }
 
   /* Header styles */
@@ -25,13 +23,12 @@ body {
   }
   
   .header h1 {
-    font-size: 2em;
-    margin-bottom: 0;
+    font-size: 2.5em;
+    margin: 0;
   }
   
   .header p {
-    font-size: 0.8em;
-    color: #777;
+    font-size: 1.3rem;
     margin-top: 5px;
   }
   
@@ -41,91 +38,105 @@ body {
   }
   
   .section h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
   }
   
   /* Education styles */
   .education {
-    margin-bottom: 15px;
+    margin: 0;
+    font-size: 1.2rem;
+
   }
   
   .education h3 {
-    font-size: 1em;
+    font-size: 1.2sem;
     margin-bottom: 5px;
+    margin-left: 30px;
   }
   
   .education p {
     font-size: 0.8em;
-    color: #777;
-    margin-top: 0;
+    margin: 5px 0;
+    margin-left: 60px;
   }
-  
+  .education p2{
+    font-size: 0.8em;
+    margin-left: 100px; 
+  }
   /* Skills styles */
+  .skills h2 {
+    font-size: 2rem;
+  }
+
   .skills ul {
-    list-style: none;
+    list-style-type: none;
+    margin-left: 60px;
     padding: 0;
-    margin: 0;
+    
   }
   
   .skills li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    list-style-type: none;
   }
-  
+
   .skills li strong {
     font-weight: bold;
   }
   
   /* Work Experience styles */
   .work {
-    margin-bottom: 15px;
+    margin: 0;
   }
   
   .work h3 {
-    font-size: 1em;
-    margin-bottom: 5px;
+    font-size: 1.5em;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    
   }
   
   .work p {
-    font-size: 0.8em;
-    color: #777;
+    margin-top: 10px;
+    font-size: 1.0em;
+    margin-left: 130px;
+    margin-bottom: 10px;
     margin-top: 0;
+}
+
+  .work li{
+  margin-bottom: 10px;
   }
-  
+
   /* Projects styles */
   .projects {
     margin-top: 20px;
+    font-size: 1.4em;
   }
   
   .project {
-    margin-bottom: 15px;
+    margin: 5px 0;
+    font-size: 1.4em;
   }
   
   .project h3 {
-    font-size: 1em;
-    margin-bottom: 5px;
+    font-size: 0.7em;
+    margin-left: 70px;
+    margin-bottom: 10px;
   }
   
   .project p {
-    font-size: 0.8em;
-    color: #777;
+    margin-top: 10px;
+    font-size: 0.5em;
+    margin-left: 90px;
+    margin-bottom: 10px;
     margin-top: 0;
   }
-  
-  .project a.button {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    border: none;
-    border-radius: 3px;
-    margin-top: 5px;
-  }
-  
-  .project a.button:hover {
-    background-color: #0069d9;
+
+  .blue-link {
+    color: #007acc;
+    text-decoration: none;  /* Optional: removes underline */
   }
 
   .resume .header,
